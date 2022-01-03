@@ -1,0 +1,201 @@
+body{
+    font: 15px/1.5  Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background: lightgray;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header{
+    background: rgba(167, 171, 223, 0.514);
+    color: darkblue;
+    padding:30px ;
+    min-height: 70px;
+    border-bottom: rgb(44, 33, 46) 3px solid;
+}
+header a{
+    color: brown;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+}
+  
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 10px;
+}
+header #branding{
+float: left;
+}
+header #branding h1{
+    margin: 0;
+}
+header nav{
+    float: right;
+    margin-top: 10px;
+
+}
+header .highlight ,header .color a{
+    color: rgba(41, 40, 40, 0.918);
+    font-weight:bold ;
+    
+}
+header a:hover{
+color: crimson;
+font-weight: bold;
+}
+#showcase{
+    background-color: rgba(67, 24, 116, 0.685);
+  background: url(images/bookshelf-book-store-3d-illustration-600w-740045515.webp)0 -200px;
+    border: 2px solid;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+font-size: large;
+}
+#showcase h1{
+    margin-top: 70px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+#newsletter{
+   
+   padding: 25px;
+    color: tomato;
+    background-color: rgb(49, 47, 44);
+}
+#newsletter h2{
+    float: left;
+    padding: 2px;
+font-weight: bold;
+padding-left: 0%;
+}
+#newsletter form{
+   padding-right: 0%;
+    position: absolute;
+    right: 150px;
+    width: 200px;
+    height: 120px;
+    margin-top: 25px;
+    text-align: right;
+}
+#newsletter input [type="email"]{
+    padding: 5px;
+    height: 50px;
+    width: 300px;
+    margin: 5px;
+    float: inline-end;
+
+}
+  .button_1{
+background: orangered; 
+color: white;
+border: 0;
+ float: right;
+width: 150px;
+padding-right: 20px;
+padding-left: 20px; 
+display: block;
+width: 100%}
+#boxes{
+    margin-left: 30px;
+    margin-top: 20px;
+  padding: 20px;
+}
+#boxes .box{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+  
+}
+#boxes .box h3{
+    font-weight: bold;
+}
+#boxes .box img{
+    width: 150px;
+}
+aside#sidebar{
+float: right;
+width: 40%;
+margin-top: 9%;
+}
+article#main-col{
+    float: left;
+    width: 60%;
+    margin-top: 10%;
+}
+
+.dark{
+    padding: 10%;
+    background-color: black;
+    color: white;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.h3{
+    font-size: large;
+    font-weight: bold;
+}
+ul#services li{
+    width: 80%;
+  padding: 10px;
+  margin-bottom: 5px;
+  font-style: none;
+  border: #ccc solid 2px;
+  background-color: bisque;
+}
+ 
+
+footer{
+    float: none;
+    margin: 20px;
+    padding: 20px;
+margin-top:20px ;
+color: white;
+background-color: black;
+font-size:medium ;
+font-weight: bold;
+text-align: center;
+ 
+}
+@media(max-width :768px){
+    header #branding,
+    header nav,
+    header li,
+    #newsletter,
+    #newsletter h2,
+    #newsletter form,
+    #boxes .box,
+    article#main-col,
+    aside#sidebar,
+    .button_1{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    header{
+        padding: 20px;
+    }
+    #showcase h1{
+        margin-top: 5px;
+    }
+    #newsletter button{
+        display: bock;
+         
+    }
+    #newsletter form input[text="email"]{
+        width: 100%;
+        margin-bottom: 10%;
+    }
+
+}
+ 
